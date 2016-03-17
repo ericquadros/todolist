@@ -1,0 +1,63 @@
+
+html, body{
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #336699;
+}
+
+div.main{
+	background-color: #FFFFFF;
+	width: 40%;
+	padding: 10px 10px 10px 10px;
+	margin: 100px auto;
+	-webkit-box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.59);
+	-moz-box-shadow:    4px 3px 5px 0px rgba(50, 50, 50, 0.59);
+	box-shadow:         4px 3px 5px 0px rgba(50, 50, 50, 0.59);	
+}
+
+h1.title{
+	color: #FFFFFF;
+	background-color: #336699;
+	width: 30%;
+	/*text-align: center;*/
+}
+input[type="text"].add{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 5px;
+    border:5px solid #336699;
+}
+input[type="text"].add :focus{
+ 	height: 30px;
+}
+.list{
+  height: 100%;
+}
+.list li{
+  padding-top: 5px;
+  cursor: pointer;
+}
+.list button{
+  text-shadow: 5px;
+  font-weight: bold;
+  background-color: #a0d3e8;
+  border-color: #61b6d9;
+  color: #333333;
+  float: right;
+  margin-right: 80px;
+  width: 60px;
+}
+.list li button:hover{
+  display: inline-block;
+  background: #336699;
+  color: #0000;
+  cursor: pointer;
+  -webkit-transition: background 1s;
+  transition: background 0.2s;
+}
+.done{
+  text-decoration: line-through;
+  color: #C1C1C1;
+}
